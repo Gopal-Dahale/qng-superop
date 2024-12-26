@@ -273,7 +273,7 @@ def hsmt(
                 )
                 # print(f"M_{t, s} = {value}")
 
-        metric_tensor = L
+        metric_tensor = L / 2
         # print(metric_tensor)
         return metric_tensor
 
